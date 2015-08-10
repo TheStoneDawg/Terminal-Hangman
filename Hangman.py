@@ -34,7 +34,6 @@ def updateBoard(board, sentence, guess):
 def main():
 	lives = 5
 	sentence = sen_maker()
-	print sentence
 	board = gen_board(sentence)
 	print board
 	while True:
